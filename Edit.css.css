@@ -1,0 +1,133 @@
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 5px;
+  margin-right: 10px;
+  padding: 0;
+  background-color: #dfdfdf;
+}
+
+section.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom:- 100px;
+}
+
+section.logo img {
+  width: 250px;
+  border: none;
+  cursor: pointer;
+  margin-bottom:- 100px;
+}
+
+header {
+  background-color: #100f46;
+  color: #fff;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  height: 80;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: left;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header a h1 {
+  display: flex;
+  margin: 5px;
+}
+
+section.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.produto,
+.produto2,
+.produto3,
+.produto4,
+.produto5,
+.produto6,
+.produto7,
+.produto8,
+.produto9,
+.produto10 {
+  flex: 0 0 calc(20% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+.produto img,
+.produto2 img,
+.produto3 img,
+.produto4 img,
+.produto5 img,
+.produto6 img,
+.produto7 img,
+.produto8 img,
+.produto9 img,
+.produto10 img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-style: groove;
+}
+
+#contato  {
+  background-color: #040253;
+  color: #fff;
+  height: 100px;
+}
+
+
+footer div.coluna{
+  text-align: center;
+  line-height: 1;
+  margin-top: 20px;
+
+}
+footer div.Formas {
+
+  text-align: right;
+  margin-top: -100px;
+}
+footer div.Instagram {
+
+  text-align:left;
+  margin-top: -55px;
+}
+
+
+
+footer.contato p.Direitos {
+  text-align: right;
+  color: #000000;
+}
+
+.link-whatsapp a {
+  color: #1bff54;
+  text-decoration: none;
+}
+
+.link-whatsapp a:hover {
+  color: #000000;
+}
